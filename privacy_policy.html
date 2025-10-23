@@ -48,7 +48,7 @@
         <h1>PassaFacile 隐私政策</h1>
         
         <div class="highlight">
-            <strong>最后更新日期：2025年1月1日</strong><br>
+            <strong>最后更新日期：2025年10月1日</strong><br>
             本隐私政策说明了PassaFacile应用如何收集、使用和保护您的个人信息。
         </div>
 
@@ -59,6 +59,7 @@
             <li><strong>学习数据</strong>：练习记录、错题记录、学习进度</li>
             <li><strong>设备信息</strong>：设备类型、操作系统版本</li>
             <li><strong>使用数据</strong>：应用使用时长、功能使用频率</li>
+            <li><strong>IP 地址</strong>：用于地理位置判断，自动选择最优 API 服务器。IP 地址不会被存储或上传到服务器。</li>
         </ul>
 
         <h2>2. 信息使用</h2>
@@ -69,6 +70,17 @@
             <li>改进应用功能和用户体验</li>
             <li>处理内购交易</li>
             <li>提供客户支持</li>
+        </ul>
+
+        <h2>2.5 IP 地址检测（不使用GPS定位）</h2>
+        <p>为了提供最佳的应用性能，我们会在应用启动时检测您的 IP 地址以判断您的国家/地区。<strong>我们不会获取您的GPS位置信息或精确地理坐标。</strong></p>
+        <ul>
+            <li><strong>检测方式</strong>：通过第三方 IP 地理位置服务 (ipapi.co, ip-api.com, Cloudflare) 仅检测国家代码（中国/非中国）</li>
+            <li><strong>检测内容</strong>：IP 地址对应的国家代码（如 CN、IT 等）</li>
+            <li><strong>使用目的</strong>：自动选择最优 API 服务器地址，为中国用户提供反向代理服务以提升连接速度</li>
+            <li><strong>数据处理</strong>：IP 地址不会被存储或上传到我们的服务器，仅在本地用于判断国家/地区</li>
+            <li><strong>缓存机制</strong>：检测结果会被缓存，避免重复查询</li>
+            <li><strong>不使用GPS</strong>：本应用不会请求或使用任何GPS定位权限，不会获取您的精确位置坐标</li>
         </ul>
 
         <h2>3. 信息共享</h2>
@@ -103,7 +115,7 @@
         <div class="contact">
             <h2>9. 联系我们</h2>
             <p>如有隐私相关问题，请联系我们：</p>
-            <p><strong>邮箱</strong>: privacy@passafacile.com</p>
+            <p><strong>邮箱</strong>: passafacile@outlook.com</p>
             <p><strong>地址</strong>: [您的公司地址]</p>
         </div>
     </div>
